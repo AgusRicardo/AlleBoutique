@@ -1,0 +1,143 @@
+
+@import "./productos";
+@import "./contacto";
+@import "./footer";
+@import "./carousel";
+
+$color-title: #6a097d ;
+$font-size-title: 2.2rem;
+$font-family: 'Raleway', sans-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1d4d4;
+}
+.no-gutters {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* Inicio Menu */
+.navbar {
+    width: 100%;
+    background-color: rgba(106, 9, 125, 1) !important;
+    font-family: $font-family;
+    font-size: 1.1rem;
+}
+.nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px black;
+    padding-right: 30px !important;
+}
+.nav-link:hover {
+    color: #999 !important;
+}
+.navbar-brand {
+    margin-left: 20px;
+}
+/* Fin Menu */
+
+// Imgagen Portada
+.img-portada {
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.img-portada_text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-family: $font-family;
+    color: $color-title;
+    font-size: 3rem !important;
+}
+.input-button_portada {
+    @extend .img-portada_text;
+    top: 70%;
+    left: 39%;
+}
+.button_portada {
+    color: $color-title;
+    border-color: $color-title;
+}
+.button_portada:hover {
+    background-color: $color-title;
+    color: white;
+}
+
+/* Inicio Informacion */
+.informacion {
+    width: 100%;
+    background-color: #c060a1;
+    padding-top: 2rem;
+    font-family: $font-family;
+}
+.informacion_img {
+    padding-left: 30px;
+}
+.box-info {
+    margin-right: 10rem;
+    margin-left: 4rem;
+}
+.titulo-info {
+    color: $color-title;
+    font-size: $font-size-title;
+    font-weight: 400;
+    padding: 20px;
+}
+.text-informacion {
+    color: white ;
+    font-size: 1.2rem;
+}
+
+/* Fin Informacion */
+
+/* Inicio Como Comprar */
+.como-comprar {
+    margin-top: 8rem;
+    width: 100% !important;
+    justify-content: center !important;
+}
+
+.tarjetas {
+    margin-right: 30px;
+}
+.tarjeta {
+    padding: 10px !important;
+}
+.mercado-pago {
+    margin-top: 4px;
+}
+.text-como-comprar {
+    color: #333;
+    font-size: 1.2rem;
+}
+.titulo-como-comprar {
+    @extend .titulo-info;
+}
+.btn-como-comprar {
+    @extend .button_portada;
+    margin-left: 10px;
+    padding: 10px;
+}
+.btn-como-comprar:hover {
+    @extend .button_portada:hover;
+}
+/* Fin Como Comprar */
+
+
+/* Inicio Modal */
+.modal-title {
+    color: #c060a1 !important;
+    font-size: 1.5rem;
+}
+.modal-header {
+    padding: 10px;
+}
+.modal-color {
+    background-color: #f1d4d4;
+}
+/* Fin Modal */
+
+

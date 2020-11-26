@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allé Boutique</title>
+    <meta name="description" content="Somos un emprendimiento dedicado a la fabricacion, reventa y customizacion de prendas y articulos de uso personal.">
+    <meta name="keywords"  content="Venta, Ropa, Mujer, Accesorios, Blusas, Remeras, Shorts">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section class="container-fluid">
+    <!-- Inicio Menu -->
+        <div class="container-fluid no-gutters">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+                    <a class="navbar-brand" href="#"><img src="./img/Logo.png" alt="logo" height="60" width="60"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#info">Informacion</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#comoComprar">Como Comprar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./views/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    <!-- Fin Menu -->
+
+    <!-- Imagen portada -->
+    <div class="container-fluid no-gutters">
+        <div class="row img-portada">
+            <img src="./img/img-fondo4.jpg" class="img-fluid" alt="Responsive image">
+            <div class="img-portada_text">
+                <h2>Allé Boutique</h2>
+                <p><b>Suscríbete</b> para recibir Ofertas exclusivas.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3 input-group input-button_portada">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's email" aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-dark button_portada" type="button" id="button-addon2">Suscribirse</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Inicio Informacion -->
+        <div class="container-fluid no-gutters" id="info">
+            <div class="row">
+                <div class="media informacion">
+                    <img class="align-self-start mr-3 img-responsive informacion_img" src="./img/informacion.svg" alt="Generic placeholder image">
+                    <div class="media-body align-self-center box-info">
+                        <h5 class="mt-0 titulo-info">¿Quienes Somos?</h5>
+                        <div class="text-informacion">
+                        <p>Somos un empredimiento situado en la ciudad de Rosario formado por tres hermanos, dos que se dedican a la parte de ventas y uno a la parte de manejo de redes.</p>
+                        <p>Nos dedicamos a la <b>fabricacion, reventa y customizacion</b> de prendas y articulos para el uso personal.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Fin Informacion -->
+
+    <!-- Inicio Como Comprar -->
+    <div class="container-fluid no-gutters" id="comoComprar">
+        <div class="row">
+            <div class="media como-comprar">
+                <div class="media-body como-comprar_align align-self-center col-xs-12 col-lg-4">
+                    <h5 class="mt-0 mb-1 titulo-como-comprar">¿Como comprar?</h5>
+                    <div class="text-como-comprar">
+                    <p>Es muy facil, elegis lo que te gusta, nos mandas un mensaje por nuestro <b><a href="https://www.instagram.com/alleboutique__/" target="_blank">instagram</a></b> y nosotros nos encargamos de enviarlo.</p>
+                    <p>Tambien puedes ver nuestros poductos aquí. <a class="btn btn-outline-dark btn-como-comprar" href="./views/productos.html" role="button">Productos &#x2192;</a></p>
+                    <p>Hacemos envios a todo el país!</p>
+                    </div>
+                    <div class="row tarjetas">
+                        <div class="tarjeta"><img src="./img/visa.svg" alt="" height="50px" width="50px"></div>
+                        <div class="tarjeta"><img src="./img/american-express.svg" alt="" height="50px" width="50px"></div>
+                        <div class="tarjeta"><img src="./img/citi.svg" alt="" height="50px" width="50px"></div>
+                        <div class="tarjeta mercado-pago"><img src="./img/mercado-pago.png" alt="" height="40px" width="150px"></div>
+                    </div>
+                </div>
+                <img class="ml-3 img-responsive como-comprar_img" src="./img/como-comprar.svg" alt="Generic placeholder image">
+            </div>
+        </div>
+    </div>
+    <!-- Fin Como Comprar -->
+
+    <!-- Inicio Footer -->
+    <div class="container-fluid no-gutters">
+        <div class="row fondo-footer">
+            <div class="redes">
+                <div class="row align-items-end redes">
+                <div class="item-animated"><a href="https://www.instagram.com/alleboutique__/"><img src="./img/instagram.svg" alt="logo-instagram" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://www.linkedin.com/in/agustin-ricardo"><img src="./img/linkedin.svg" alt="logo-linkedin" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://web.whatsapp.com/"><img src="./img/whatsapp.svg" alt="logo-whatsapp" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://www.facebook.com/"><img src="./img/facebook.svg" alt="logo-facebook" height="40px" width="40px"></a></div>
+            </div>
+        </div>
+            <ul class="nav justify-content-center menu-footer">
+                <li class="nav-item">
+                    <a class="nav-link active borde" href="#">Inicio</a>
+                </li>
+                <li class="nav-item borde">
+                    <a class="nav-link" href="#info">Informacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link borde" href="./views/productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link borde" href="#comoComprar">Como comprar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./views/contacto.html">Contacto</a>
+                </li>
+            </ul>
+            <div class="copy menu-footer text-center">
+                <p>Allé Boutique 2020 Copyright © Todos los derechos reservados - Política de privacidad - Contact us / Contacta con nosotros</p>
+            </div>
+        </div>
+    </div>
+    <!-- Fin Footer -->
+</section>
+</body>
+</html>

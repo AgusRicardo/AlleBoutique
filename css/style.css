@@ -1,0 +1,305 @@
+/* Inicio Productos */
+.m-top {
+  padding: 1.5rem;
+  margin-top: 7rem; }
+
+.card-deck {
+  padding: 15px; }
+
+.productos-background_color, .carousel-align {
+  border-radius: 5px; }
+
+.col-selectors {
+  font-family: 'Raleway', sans-serif;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 1rem; }
+
+.card {
+  border: none; }
+
+.points-star {
+  margin-bottom: 20px; }
+  .points-star .fa {
+    color: #6a097d; }
+
+.productos-categorias_fondo {
+  border-top: 0;
+  border-radius: 0 !important;
+  background-color: #c060a1; }
+
+.categorias {
+  padding-top: 6rem; }
+
+.title-categorias {
+  font-family: 'Raleway', sans-serif;
+  color: #6a097d;
+  font-weight: 800; }
+
+.no-color a:hover {
+  color: white !important; }
+
+.nav-pills a:focus {
+  background-color: #6a097d !important; }
+
+.btn-buy {
+  font-weight: 600 !important; }
+
+.carousel-productos {
+  margin-bottom: 2rem; }
+
+.carousel-align {
+  padding-top: 1rem; }
+
+.carousel-img {
+  opacity: 0.9; }
+
+/* Fin Productos */
+/* Inicio Contacto */
+.back-contacto {
+  margin-top: 7.9rem; }
+
+.form-group {
+  width: 100%; }
+
+.formulario {
+  padding: 20px;
+  width: 100%; }
+
+.form-control {
+  background-color: white !important; }
+
+.titulo {
+  color: #c060a1 !important;
+  font-size: 2rem; }
+
+fieldset {
+  background-color: #f1d4d4;
+  border: 2px solid white;
+  padding: 20px;
+  width: 50%; }
+
+.btn-primary {
+  color: white; }
+
+/* Fin Contacto */
+/* Inicio Footer */
+.fondo-footer {
+  margin-top: 10rem;
+  margin-bottom: 0 !important;
+  height: 5rem;
+  background-color: #000000; }
+
+.redes {
+  width: 100%;
+  margin-top: 10px;
+  justify-content: center;
+  background-color: #000000; }
+
+.redes a {
+  padding: 20px; }
+
+.item-animated:hover {
+  transform: scale(1.05, 1.05); }
+
+.menu-footer {
+  width: 100%;
+  background-color: #000000; }
+
+.menu-footer li {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.menu-footer li a {
+  padding: 10px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important; }
+
+.borde {
+  border-right: 1px solid white; }
+
+.copy {
+  background-color: #6a097d !important;
+  color: #999; }
+
+.copy p {
+  padding: 5px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: small; }
+
+/* Fin Footer */
+@media screen and (max-width: 1200px) {
+  .img-responsive {
+    width: 450px; } }
+
+@media screen and (max-width: 992px) {
+  .img-responsive {
+    width: 250px; }
+  fieldset {
+    width: 100%; }
+  .carousel-productos {
+    display: none; } }
+
+@media screen and (max-width: 767px) {
+  .img-responsive {
+    display: none; }
+  fieldset {
+    width: 100%; }
+  .carousel-productos {
+    display: none; } }
+
+@media screen and (max-width: 424px) {
+  .img-responsive {
+    display: none; }
+  .h-carousel {
+    display: none; }
+  fieldset {
+    width: 100%; }
+  .carousel-productos {
+    display: none; } }
+
+@media screen and (max-width: 374px) {
+  .img-responsive {
+    display: none; }
+  .h-carousel {
+    display: none; }
+  .como-comprar {
+    text-align: start; }
+  fieldset {
+    width: 100%; }
+  .carousel-productos {
+    display: none; } }
+
+@media screen and (max-width: 319px) {
+  .img-responsive {
+    display: none; }
+  .h-carousel {
+    display: none; }
+  .como-comprar {
+    text-align: start; }
+  fieldset {
+    width: 100%; }
+  .carousel-productos {
+    display: none; } }
+
+/* Inicio Carousel*/
+.h-carousel {
+  height: 100vh !important; }
+
+/* Fin Carousel */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f1d4d4; }
+
+.no-gutters {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+/* Inicio Menu */
+.navbar {
+  width: 100%;
+  background-color: #6a097d !important;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1rem; }
+
+.nav-link {
+  color: white !important;
+  text-shadow: 1px 1px 1px black;
+  padding-right: 30px !important; }
+
+.nav-link:hover {
+  color: #999 !important; }
+
+.navbar-brand {
+  margin-left: 20px; }
+
+/* Fin Menu */
+.img-portada {
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+
+.img-portada_text, .input-button_portada {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  font-family: "Raleway", sans-serif;
+  color: #6a097d;
+  font-size: 3rem !important; }
+
+.input-button_portada {
+  top: 70%;
+  left: 39%; }
+
+.button_portada, .btn-como-comprar {
+  color: #6a097d;
+  border-color: #6a097d; }
+
+.button_portada:hover, .btn-como-comprar:hover {
+  background-color: #6a097d;
+  color: white; }
+
+/* Inicio Informacion */
+.informacion {
+  width: 100%;
+  background-color: #c060a1;
+  padding-top: 2rem;
+  font-family: "Raleway", sans-serif; }
+
+.informacion_img {
+  padding-left: 30px; }
+
+.box-info {
+  margin-right: 10rem;
+  margin-left: 4rem; }
+
+.titulo-info, .titulo-como-comprar {
+  color: #6a097d;
+  font-size: 2.2rem;
+  font-weight: 400;
+  padding: 20px; }
+
+.text-informacion {
+  color: white;
+  font-size: 1.2rem; }
+
+/* Fin Informacion */
+/* Inicio Como Comprar */
+.como-comprar {
+  margin-top: 8rem;
+  width: 100% !important;
+  justify-content: center !important; }
+
+.tarjetas {
+  margin-right: 30px; }
+
+.tarjeta {
+  padding: 10px !important; }
+
+.mercado-pago {
+  margin-top: 4px; }
+
+.text-como-comprar {
+  color: #333;
+  font-size: 1.2rem; }
+
+.btn-como-comprar {
+  margin-left: 10px;
+  padding: 10px; }
+
+/* Fin Como Comprar */
+/* Inicio Modal */
+.modal-title {
+  color: #c060a1 !important;
+  font-size: 1.5rem; }
+
+.modal-header {
+  padding: 10px; }
+
+.modal-color {
+  background-color: #f1d4d4; }
+
+/* Fin Modal */

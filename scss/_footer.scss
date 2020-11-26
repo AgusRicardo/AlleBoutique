@@ -1,0 +1,122 @@
+/* Inicio Footer */
+.fondo-footer {
+    margin-top: 10rem;
+    margin-bottom: 0 !important;
+    height: 5rem;
+    background-color: #000000;
+}
+.redes {
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    background-color: #000000;
+}
+.redes a {
+    padding: 20px;
+}
+.item-animated:hover{
+    transform: scale(1.05, 1.05);
+}
+.menu-footer {
+    width: 100%;
+    background-color: #000000;
+}
+.menu-footer li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu-footer li a {
+    padding: 10px !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.borde {
+    border-right: 1px solid white;
+}
+.copy {
+    background-color: #6a097d !important;
+    color: #999;
+}
+.copy p {
+    padding: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: small;
+}
+/* Fin Footer */
+
+@media screen and (max-width: 1200px){
+    .img-responsive {
+        width: 450px;
+    }
+}
+@media screen and (max-width: 992px){
+    .img-responsive {
+        width: 250px;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .carousel-productos {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px){
+    .img-responsive {
+        display: none;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .carousel-productos {
+        display: none;
+    }
+}
+@media screen and (max-width: 424px){
+    .img-responsive {
+        display: none;
+    }
+    .h-carousel {
+        display: none;;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .carousel-productos {
+        display: none;
+    }
+}
+@media screen and (max-width: 374px){
+    .img-responsive {
+        display: none;
+    }
+    .h-carousel {
+        display: none;
+    }
+    .como-comprar {
+        text-align: start;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .carousel-productos {
+        display: none;
+    }
+}
+@media screen and (max-width: 319px){ 
+    .img-responsive {
+        display: none;
+    }
+    .h-carousel {
+        display: none;
+    }
+    .como-comprar {
+        text-align: start;
+    }
+    fieldset {
+        width: 100%;
+    }
+    .carousel-productos {
+        display: none;
+    }
+}

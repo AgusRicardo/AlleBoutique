@@ -1,0 +1,32 @@
+/* Inicio Contacto */
+
+$color-sub-title: #c060a1;
+$color-white: white;
+
+.back-contacto {
+    margin-top: 7.9rem;
+}
+.form-group {
+    width: 100%;
+}
+.formulario {
+    padding: 20px;
+    width: 100%;
+}
+.form-control {
+    background-color: $color-white !important;
+}
+.titulo {
+    color: $color-sub-title !important;
+    font-size: 2rem;
+}
+fieldset {
+    background-color: #f1d4d4;
+    border: 2px solid $color-white;
+    padding: 20px;
+    width: 50%;
+}
+.btn-primary {
+    color: $color-white;
+}
+/* Fin Contacto */
