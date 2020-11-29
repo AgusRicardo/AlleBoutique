@@ -6,9 +6,11 @@
     <title>Allé Boutique</title>
     <meta name="description" content="Somos un emprendimiento dedicado a la fabricacion, reventa y customizacion de prendas y articulos de uso personal.">
     <meta name="keywords"  content="Venta, Ropa, Mujer, Accesorios, Blusas, Remeras, Shorts">
+    <link rel="icon" href="./img/Logo.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./css/style.css">
@@ -32,7 +34,7 @@
                             <a class="nav-link" href="#info">Informacion</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#comoComprar">Como Comprar</a>
+                            <a class="nav-link" href="#comoComprar">Cómo Comprar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./views/productos.html">Productos</a>
@@ -50,22 +52,41 @@
     <!-- Imagen portada -->
     <div class="container-fluid no-gutters">
         <div class="row img-portada">
-            <img src="./img/img-fondo4.jpg" class="img-fluid" alt="Responsive image">
-            <div class="img-portada_text">
-                <h2>Allé Boutique</h2>
-                <p><b>Suscríbete</b> para recibir Ofertas exclusivas.</p>
-            </div>
+            <img src="./img/img-fondo-inicio.svg" class="img-fluid img-fondo_inicio" alt="Responsive image">
         </div>
         <div class="row">
-            <div class="col-lg-3 input-group input-button_portada">
+            <div class="col-md-6 col-xs-12 img-portada_text">
+                <h2 class="font-size-titulo">Allé Boutique</h2>
+                <p><b>Suscríbete</b> para recibir Ofertas exclusivas.</p>
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-8 col-xs-12 input-group input-button_portada">
                 <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's email" aria-describedby="button-addon2">
                 <div class="input-group-append">
                     <button class="btn btn-outline-dark button_portada" type="button" id="button-addon2">Suscribirse</button>
                 </div>
             </div>
+            
         </div>
     </div>
-
+    <!-- Banner -->
+    <div class="container-fluid no-gutters">
+        <div class="row">
+            <div class="banner">
+                <div class="card mb-3 cards-banner" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="./img/planta.svg" class="card-img" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-text">En Allé Boutique tenemos un compromiso con el medio ambiente. Por eso todos nuestros accesorios estan hechos a base de recursos naturales.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Inicio Informacion -->
         <div class="container-fluid no-gutters" id="info">
             <div class="row">
@@ -87,8 +108,8 @@
     <div class="container-fluid no-gutters" id="comoComprar">
         <div class="row">
             <div class="media como-comprar">
-                <div class="media-body como-comprar_align align-self-center col-xs-12 col-lg-4">
-                    <h5 class="mt-0 mb-1 titulo-como-comprar">¿Como comprar?</h5>
+                <div class="media-body como-comprar_align align-self-center col-md-6 col-lg-4">
+                    <h5 class="mt-0 mb-1 titulo-como-comprar">¿Cómo comprar?</h5>
                     <div class="text-como-comprar">
                     <p>Es muy facil, elegis lo que te gusta, nos mandas un mensaje por nuestro <b><a href="https://www.instagram.com/alleboutique__/" target="_blank">instagram</a></b> y nosotros nos encargamos de enviarlo.</p>
                     <p>Tambien puedes ver nuestros poductos aquí. <a class="btn btn-outline-dark btn-como-comprar" href="./views/productos.html" role="button">Productos &#x2192;</a></p>
@@ -112,10 +133,10 @@
         <div class="row fondo-footer">
             <div class="redes">
                 <div class="row align-items-end redes">
-                <div class="item-animated"><a href="https://www.instagram.com/alleboutique__/"><img src="./img/instagram.svg" alt="logo-instagram" height="40px" width="40px"></a></div>
-                <div class="item-animated"><a href="https://www.linkedin.com/in/agustin-ricardo"><img src="./img/linkedin.svg" alt="logo-linkedin" height="40px" width="40px"></a></div>
-                <div class="item-animated"><a href="https://web.whatsapp.com/"><img src="./img/whatsapp.svg" alt="logo-whatsapp" height="40px" width="40px"></a></div>
-                <div class="item-animated"><a href="https://www.facebook.com/"><img src="./img/facebook.svg" alt="logo-facebook" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://www.instagram.com/alleboutique__/" target="_blank"><img src="./img/instagram.svg" alt="logo-instagram" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://www.linkedin.com/in/agustin-ricardo" target="_blank"><img src="./img/linkedin.svg" alt="logo-linkedin" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://web.whatsapp.com/" target="_blank"><img src="./img/whatsapp.svg" alt="logo-whatsapp" height="40px" width="40px"></a></div>
+                <div class="item-animated"><a href="https://www.facebook.com/" target="_blank"><img src="./img/facebook.svg" alt="logo-facebook" height="40px" width="40px"></a></div>
             </div>
         </div>
             <ul class="nav justify-content-center menu-footer">

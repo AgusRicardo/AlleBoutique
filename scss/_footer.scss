@@ -49,6 +49,9 @@
     .img-responsive {
         width: 450px;
     }
+    .img-portada_text {
+        position: static !important;
+    }
 }
 @media screen and (max-width: 992px){
     .img-responsive {
@@ -60,6 +63,15 @@
     .carousel-productos {
         display: none;
     }
+    .banner {
+        display: none;
+    }
+    .img-portada_text {
+        position: static !important;
+    }
+    .input-button_portada {
+        margin-left: 50px !important;
+    }
 }
 @media screen and (max-width: 767px){
     .img-responsive {
@@ -70,6 +82,9 @@
     }
     .carousel-productos {
         display: none;
+    }
+    .input-button_portada {
+        margin-left: 10px !important;
     }
 }
 @media screen and (max-width: 424px){
@@ -102,6 +117,9 @@
     .carousel-productos {
         display: none;
     }
+    .banner {
+        display: none;
+    }
 }
 @media screen and (max-width: 319px){ 
     .img-responsive {
@@ -117,6 +135,9 @@
         width: 100%;
     }
     .carousel-productos {
+        display: none;
+    }
+    .banner {
         display: none;
     }
 }
