@@ -133,7 +133,9 @@ fieldset {
   .img-responsive {
     width: 450px; }
   .img-portada_text, .input-button_portada {
-    position: static !important; } }
+    position: static !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 @media screen and (max-width: 992px) {
   .img-responsive {
@@ -147,7 +149,10 @@ fieldset {
   .img-portada_text, .input-button_portada {
     position: static !important; }
   .input-button_portada {
-    margin-left: 50px !important; } }
+    margin-left: auto !important;
+    margin-right: auto !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 @media screen and (max-width: 767px) {
   .img-responsive {
@@ -157,7 +162,11 @@ fieldset {
   .carousel-productos {
     display: none; }
   .input-button_portada {
-    margin-left: 10px !important; } }
+    margin-left: 10px !important; }
+  .input-button_portada {
+    width: 100% !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 @media screen and (max-width: 424px) {
   .img-responsive {
@@ -167,7 +176,11 @@ fieldset {
   fieldset {
     width: 100%; }
   .carousel-productos {
-    display: none; } }
+    display: none; }
+  .input-button_portada {
+    width: 100% !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 @media screen and (max-width: 374px) {
   .img-responsive {
@@ -181,7 +194,11 @@ fieldset {
   .carousel-productos {
     display: none; }
   .banner {
-    display: none; } }
+    display: none; }
+  .input-button_portada {
+    width: 100% !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 @media screen and (max-width: 319px) {
   .img-responsive {
@@ -195,7 +212,11 @@ fieldset {
   .carousel-productos {
     display: none; }
   .banner {
-    display: none; } }
+    display: none; }
+  .input-button_portada {
+    width: 100% !important; }
+  .img-portada_text, .input-button_portada {
+    width: 100% !important; } }
 
 /* Inicio Carousel*/
 .h-carousel {
