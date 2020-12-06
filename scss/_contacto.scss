@@ -4,7 +4,7 @@ $color-sub-title: #c060a1;
 $color-white: white;
 
 .back-contacto {
-    margin-top: 7.9rem;
+    margin-top: 5rem;
 }
 .form-group {
     width: 100%;
@@ -28,5 +28,9 @@ fieldset {
 }
 .btn-primary {
     color: $color-white;
+}
+.img-logo-contacto {
+    justify-content: center;
+    margin-top: 7.5rem;
 }
 /* Fin Contacto */

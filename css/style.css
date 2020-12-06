@@ -57,7 +57,7 @@
 /* Fin Productos */
 /* Inicio Contacto */
 .back-contacto {
-  margin-top: 7.9rem; }
+  margin-top: 5rem; }
 
 .form-group {
   width: 100%; }
@@ -81,6 +81,10 @@ fieldset {
 
 .btn-primary {
   color: white; }
+
+.img-logo-contacto {
+  justify-content: center;
+  margin-top: 7.5rem; }
 
 /* Fin Contacto */
 /* Inicio Footer */
@@ -135,7 +139,9 @@ fieldset {
   .img-portada_text, .input-button_portada {
     position: static !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .input-button_portada {
+    margin-top: 20px !important; } }
 
 @media screen and (max-width: 992px) {
   .img-responsive {
@@ -152,7 +158,11 @@ fieldset {
     margin-left: auto !important;
     margin-right: auto !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .categorias {
+    padding-top: 0px; }
+  .input-button_portada {
+    margin-top: 20px !important; } }
 
 @media screen and (max-width: 767px) {
   .img-responsive {
@@ -166,7 +176,13 @@ fieldset {
   .input-button_portada {
     width: 100% !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .categorias {
+    padding-top: 0px; }
+  .input-button_portada {
+    margin-top: 10px !important; }
+  .img-contacto {
+    width: 90% !important; } }
 
 @media screen and (max-width: 424px) {
   .img-responsive {
@@ -180,7 +196,13 @@ fieldset {
   .input-button_portada {
     width: 100% !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .categorias {
+    padding-top: 0px; }
+  .input-button_portada {
+    margin-top: 10px !important; }
+  .img-contacto {
+    width: 90% !important; } }
 
 @media screen and (max-width: 374px) {
   .img-responsive {
@@ -198,7 +220,13 @@ fieldset {
   .input-button_portada {
     width: 100% !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .categorias {
+    padding-top: 0px; }
+  .input-button_portada {
+    margin-top: 10px !important; }
+  .img-contacto {
+    width: 90% !important; } }
 
 @media screen and (max-width: 319px) {
   .img-responsive {
@@ -216,7 +244,13 @@ fieldset {
   .input-button_portada {
     width: 100% !important; }
   .img-portada_text, .input-button_portada {
-    width: 100% !important; } }
+    width: 100% !important; }
+  .categorias {
+    padding-top: 0px; }
+  .input-button_portada {
+    margin-top: 10px !important; }
+  .img-contacto {
+    width: 90% !important; } }
 
 /* Inicio Carousel*/
 .h-carousel {
@@ -267,6 +301,7 @@ body {
   width: 50%;
   position: absolute;
   text-align: center;
+  margin-top: 120px;
   top: 35%;
   font-family: "Raleway", sans-serif;
   color: #6a097d;
@@ -276,7 +311,8 @@ body {
   top: 55%;
   text-align: center;
   margin-left: 250px;
-  position: absolute; }
+  position: absolute;
+  margin-top: 70px; }
 
 .button_portada, .btn-como-comprar {
   color: #6a097d;
@@ -302,10 +338,7 @@ body {
   margin-right: auto;
   margin-top: 3rem;
   color: white;
-  position: relative;
-  animation-name: desp-der;
-  animation-duration: 2s;
-  animation-delay: 1.1s; }
+  position: relative; }
 
 /* Inicio Informacion */
 .informacion {
@@ -327,7 +360,7 @@ body {
 .titulo-info, .titulo-como-comprar {
   color: #6a097d;
   font-size: 2.2rem;
-  font-weight: 400;
+  font-weight: 600;
   padding: 20px; }
 
 .text-informacion {
@@ -353,6 +386,12 @@ body {
 .text-como-comprar {
   color: #333;
   font-size: 1.2rem; }
+  .text-como-comprar a {
+    text-decoration: none;
+    color: #6a097d; }
+
+.titulo-como-comprar {
+  text-align: center; }
 
 .btn-como-comprar {
   margin-left: 10px;
@@ -371,14 +410,3 @@ body {
   background-color: #f1d4d4; }
 
 /* Fin Modal */
-@keyframes desp-der {
-  0% {
-    width: 0; }
-  25% {
-    width: 25%; }
-  50% {
-    width: 50%; }
-  75% {
-    width: 75%; }
-  100% {
-    width: 100%; } }

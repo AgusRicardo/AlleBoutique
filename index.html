@@ -32,10 +32,10 @@
                             <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#info">Informacion</a>
+                            <a class="nav-link" href="#info">Información</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#comoComprar">Cómo Comprar</a>
+                            <a class="nav-link" href="#comoComprar">¿Cómo comprar?</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./views/productos.html">Productos</a>
@@ -52,9 +52,6 @@
 
     <!-- Imagen portada -->
     <div class="container-fluid no-gutters">
-        <div class="row img-portada">
-            <img src="./img/img-fondo-inicio.svg" class="img-fluid img-fondo_inicio" alt="Responsive image">
-        </div>
         <div class="row">
             <div class="col-xs-12 img-portada_text">
                 <h2 class="font-size-titulo">Allé Boutique</h2>
@@ -63,12 +60,37 @@
             <div class="col-xl-3 col-lg-6 col-md-8 col-xs-12 input-group input-button_portada">
                 <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's email" aria-describedby="button-addon2">
                 <div class="input-group-append">
-                    <button class="btn btn-outline-dark button_portada" type="button" id="button-addon2">Suscribirse</button>
+                    <button class="btn btn-outline-dark button_portada" type="button" id="button-addon2" data-toggle="modal" data-target="#exampleModal">Suscribirse</button>
                 </div>
             </div>
             
         </div>
+        <div class="row img-portada">
+            <img src="./img/img-fondo-inicio.svg" class="img-fluid img-fondo_inicio" alt="Responsive image">
+        </div>
     </div>
+
+    <!-- Inicio Modal Index-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content modal-color">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Allé Boutique</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Su suscripción se ha completado. Ahora recibirá nuestras mejores ofertas a su correo. Muchas gracias</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Salir</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- Fin Modal Index-->
+
     <!-- Banner -->
     <div class="container-fluid no-gutters">
         <div class="row">
@@ -80,7 +102,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <p class="card-text">En Allé Boutique tenemos un compromiso con el medio ambiente. Por eso todos nuestros accesorios estan hechos a base de recursos naturales.</p>
+                            <p class="card-text">En Allé Boutique tenemos un compromiso con el medio ambiente. Por eso todos nuestros accesorios están hechos a base de recursos naturales.</p>
                         </div>
                     </div>
                     </div>
@@ -96,8 +118,8 @@
                     <div class="media-body align-self-center box-info">
                         <h5 class="mt-0 titulo-info">¿Quienes Somos?</h5>
                         <div class="text-informacion">
-                        <p>Somos un empredimiento situado en la ciudad de Rosario formado por tres hermanos, dos que se dedican a la parte de ventas y uno a la parte de manejo de redes.</p>
-                        <p>Nos dedicamos a la <b>fabricacion, reventa y customizacion</b> de prendas y articulos para el uso personal.</p>
+                        <p>Somos un emprendimiento situado en la ciudad de Rosario formado por tres hermanos, dos que se dedican a la parte de ventas y uno a la parte de manejo de redes.</p>
+                        <p>Nos dedicamos a la <b>fabricación, reventa y customización</b> de prendas y artículos para el uso personal.</p>
                         </div>
                     </div>
                 </div>
@@ -112,9 +134,9 @@
                 <div class="media-body como-comprar_align align-self-center col-md-6 col-lg-4">
                     <h5 class="mt-0 mb-1 titulo-como-comprar">¿Cómo comprar?</h5>
                     <div class="text-como-comprar">
-                    <p>Es muy facil, elegis lo que te gusta, nos mandas un mensaje por nuestro <b><a href="https://www.instagram.com/alleboutique__/" target="_blank">instagram</a></b> y nosotros nos encargamos de enviarlo.</p>
-                    <p>Tambien puedes ver nuestros poductos aquí. <a class="btn btn-outline-dark btn-como-comprar" href="./views/productos.html" role="button">Productos &#x2192;</a></p>
-                    <p>Hacemos envios a todo el país!</p>
+                    <p>Es muy fácil, elegís lo que te gusta, nos mandas un mensaje por nuestro <b><a href="https://www.instagram.com/alleboutique__/" target="_blank">Instagram</a></b> y nosotros nos encargamos de enviarlo.</p>
+                    <p>También puedes ver nuestros productos aquí. <a class="btn btn-outline-dark btn-como-comprar" href="./views/productos.html" role="button">Productos &#x2192;</a></p>
+                    <p>Hacemos envíos a todo el país!</p>
                     </div>
                     <div class="row tarjetas">
                         <div class="tarjeta"><img src="./img/visa.svg" alt="" height="50px" width="50px"></div>
