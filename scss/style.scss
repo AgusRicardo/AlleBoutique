@@ -20,7 +20,7 @@ body {
 /* Inicio Menu */
 .navbar {
     width: 100%;
-    background-color: rgba(106, 9, 125, 1) !important;
+    background: linear-gradient(90deg, rgba(106,9,125,1) 45%, rgba(106,9,125,0.7) 100%);
     font-family: $font-family;
     font-size: 1.1rem;
 }
@@ -106,13 +106,17 @@ body {
     font-family: $font-family;
 }
 .informacion_img {
-    padding-left: 30px;
     width: 40%;
+    margin-left: 100px;
+}
+.b-informacion {
+    color: $color-title;
 }
 .box-info {
     margin-right: 10rem;
     margin-left: 4rem;
     align-items: center;
+    padding: 15px;
 }
 .titulo-info {
     color: $color-title;

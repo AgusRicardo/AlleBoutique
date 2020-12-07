@@ -1,7 +1,7 @@
 /* Inicio Productos */
 .m-top {
     padding: 1.5rem;
-    margin-top: 7rem;
+    margin-top: 5rem;
 }
 
 // Cards
@@ -41,12 +41,17 @@
     font-family: 'Raleway', sans-serif;
     color: #6a097d;
     font-weight: 800;
+    margin-bottom: 20px;
+    font-size: 2rem;
 }
 .no-color a:hover {
     color: white !important;
 }
 .nav-pills a:focus {
     background-color: #6a097d !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #6a097d;
 }
 .btn-buy {
     font-weight: 600 !important;
