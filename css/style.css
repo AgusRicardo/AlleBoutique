@@ -23,6 +23,19 @@
   .points-star .fa {
     color: #6a097d; }
 
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+  max-height: 270px; }
+
+.logo-wsp-flotante {
+  margin-right: 30px;
+  margin-bottom: 20px; }
+
+.logo-wsp-flotante:hover {
+  transform: scale(1.05, 1.05); }
+
 .productos-categorias_fondo {
   border-top: 0;
   border-radius: 0 !important;
@@ -151,12 +164,10 @@ fieldset {
     font-size: 1.5rem !important; }
   .input-button_portada {
     top: 65% !important;
-    margin-left: 210px !important;
+    margin-left: 255px !important;
     margin-top: 70px; }
   .img-portada {
-    margin-top: 100px; }
-  .img-fondo_inicio {
-    width: 700px; } }
+    margin-top: 100px; } }
 
 @media screen and (max-width: 1200px) {
   .img-responsive {
@@ -166,7 +177,9 @@ fieldset {
   .img-portada_text, .input-button_portada {
     width: 100% !important; }
   .input-button_portada {
-    margin-top: 20px !important; } }
+    margin-top: 20px !important; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 @media screen and (max-width: 992px) {
   .img-responsive {
@@ -187,7 +200,9 @@ fieldset {
   .categorias {
     padding-top: 0px; }
   .input-button_portada {
-    margin-top: 20px !important; } }
+    margin-top: 20px !important; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 @media screen and (max-width: 767px) {
   .img-responsive {
@@ -218,7 +233,9 @@ fieldset {
     height: auto !important;
     width: 100%;
     margin-bottom: 20px;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 @media screen and (max-width: 424px) {
   .img-responsive {
@@ -249,7 +266,9 @@ fieldset {
     height: auto !important;
     width: 100%;
     margin-bottom: 20px;
-    margin-top: 20px; } }
+    margin-top: 20px; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 @media screen and (max-width: 374px) {
   .img-responsive {
@@ -286,7 +305,9 @@ fieldset {
     margin-bottom: 20px;
     margin-top: 20px; }
   .img-fondo_inicio {
-    margin-left: 10px !important; } }
+    margin-left: 10px !important; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 @media screen and (max-width: 319px) {
   .img-responsive {
@@ -323,7 +344,9 @@ fieldset {
     margin-bottom: 20px;
     margin-top: 20px; }
   .img-fondo_inicio {
-    margin-left: 10px !important; } }
+    margin-left: 10px !important; }
+  .img-fondo_inicio {
+    margin-top: 0px !important; } }
 
 /* Inicio Carousel*/
 .h-carousel {
@@ -364,7 +387,8 @@ body {
 
 .img-fondo_inicio {
   margin-left: auto;
-  margin-right: 0; }
+  margin-right: 0;
+  margin-top: 55px; }
 
 .font-size-titulo {
   font-size: 3rem; }

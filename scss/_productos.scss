@@ -27,6 +27,21 @@
         color: #6a097d;
     }
 }
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+    max-height: 270px;
+}
+
+// Logo WhatsApp
+.logo-wsp-flotante {
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.logo-wsp-flotante:hover{
+    transform: scale(1.05, 1.05);
+}
 
 // Columna Categorias
 .productos-categorias_fondo {
